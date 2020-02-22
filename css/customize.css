@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+  background-image: url("/img/background.JPG");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sloagn {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.sub-sloagn {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.inquiry a {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  border: 2px solid #fff;
+}
+.inquiry a:hover {
+  text-decoration: none;
+}
